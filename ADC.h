@@ -2,7 +2,6 @@
  * ADC.h
  *
  *  Created on: Apr 30, 2025
- *  Author: Youssef Khaled
  */
 
 #ifndef ADC_H_
@@ -75,3 +74,4 @@ void ADC_setCallBack(void (*a_ptr)(void));
 uint16 ADC_getResult(void);
 void ADC_deInit(void);
 #endif /* ADC_H_ */
+
