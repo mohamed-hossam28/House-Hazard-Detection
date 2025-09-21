@@ -2,7 +2,6 @@
  * Buzzer.c
  *
  *  Created on: Oct 5, 2024
- *      Author: Youssef Khaled
  */
 
 #include "Buzzer.h"
@@ -42,3 +41,4 @@ void Buzzer_off(void) {
     // Set the buzzer pin to low to deactivate the buzzer
     GPIO_writePin(BUZZER_PORT, BUZZER_PIN, LOGIC_LOW);
 }
+
