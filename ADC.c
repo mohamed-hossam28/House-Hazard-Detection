@@ -2,7 +2,6 @@
  * ADC.c
  *
  *  Created on: Apr 30, 2025
- *      Author: Youssef Khaled
  */
 #include "ADC.h"
 #include "ADC_Private.h"
@@ -168,3 +167,4 @@ void ADC_deInit(void) {
 	ADCSRA_REG.Bits.ADIE_Bit = 0;
 	ADMUX_REG.Byte = 0;
 }
+
