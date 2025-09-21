@@ -6,7 +6,6 @@
  *
  * Description: Source file for the AVR GPIO driver
  *
- * Author: Youssef Khaled
  *
  *******************************************************************************/
 
@@ -261,3 +260,4 @@ uint8 GPIO_readPort(uint8 port_num) {
 	}
 	return value;
 }
+
