@@ -2,7 +2,6 @@
  * ADC_Private.h
  *
  *  Created on: Apr 30, 2025
- *      Author: Youssef Khaled
  */
 
 #ifndef ADC_PRIVATE_H_
@@ -73,3 +72,4 @@ typedef union {
 
 
 #endif /* ADC_PRIVATE_H_ */
+
